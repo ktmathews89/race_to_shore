@@ -25,7 +25,7 @@ function resetRace()
     jquery definitions
     these connect the javascript defined above to the html
 *******************************************************************************/
-$(document).on('ready', function(){
+$(document).ready(function(){
 
     // the inside function runs when the start race button is clicked
     $('#start-race').on('click', function (){
